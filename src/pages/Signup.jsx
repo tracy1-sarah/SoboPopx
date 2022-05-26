@@ -15,8 +15,6 @@ function Signup() {
     try {
       await signUp(email, password)
       navigate('/')
-      window.alert("User Created")
-
     } catch (error) {
       setError(error.message)
     }
