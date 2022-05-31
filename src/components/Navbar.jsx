@@ -17,7 +17,7 @@ function Navbar() {
     return (
         <div className='flex items-center justify-between p-4 z-[100] w-full absolute'>
             <Link to='/'>
-                <h1 className='text-red-600 text-4xl font-bold cursor-pointer'>PopFlixx</h1>
+                <h1 className='text-red-600 text-4xl font-[cursive] font-bold cursor-pointer'>SoboPopx</h1>
             </Link>
             {/* if user has logged in */}
             {user?.email ? <div>
