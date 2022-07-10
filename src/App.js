@@ -6,6 +6,7 @@ import Account from "./pages/Account";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import MovieDetails from "./pages/MovieDetails";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/account" element={<ProtectedRoute><Account /></ProtectedRoute>} />
+          <Route path="/moviedetails" element={<MovieDetails />}/>
         </Routes>
       </BrowserRouter>
     </AuthContextProvider>
